@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color: gray;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .home_page_content{
