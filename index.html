@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="css_file.css">
+ <title>Document</title>
+</head>
+<script>
+ function myfunction() {
+ document.getElementById("text").innerHTML = "Hello!!<br> Welcome to the 
+programming world <br> I'm Sanjai<br>"
+ }
+ function about_me() {
+ document.getElementById("text").innerHTML = "I am Sanjai, a 19-year-old from
+Erode,<br>with a background in artificial intelligence and data science.<br>My 
+father’s name is Amulrasu and my mother’s name is Jothimani.<br>I completed my 
+schooling at SVV Matriculation School in Gobi.";
+ }
+ function skills() {
+ document.getElementById("text").innerHTML = "<center><table> <tr> 
+<th>S.NO</th> <th>SKILL NAME</th> <th>LEVEL</th> </tr> <tr> <td>1</td> 
+<td>Python</td> <td>intermediate</td> </tr> <tr> <td>2</td> <td>java</td> 
+<td>basic</td> </tr> <tr> <td>3</td> <td>javascript</td> <td>basic</td> </tr> <tr> 
+<td>4</td> <td>html</td> <td>intermediate</td> </tr> <tr> <td>5</td> <td>css</td> 
+<td>basic</td> </tr> <tr> <td>6</td> <td>c&c++</td> <td>intermediate</td> </tr> 
+</table></center> <ul> <p>Familiar with list of tools</p> <li>Blender</li> 
+<li>Android studio</li> <li>figma </li> </ul>";
+ }
+ function project() {
+ document.getElementById("text").innerHTML = "<ul><li>Maze game development 
+in scratch</li> <li>Music player</li> <li>Face login system using flask</li> 
+<li>News summarizing bot</li></ul>"
+ }
+</script>
+<body>
+ <p style="color: rgb(4, 4, 32);font-size: 1.9cm;text-align: center;">Personal 
+Portfolio</p>
+ <div class="nav_bar">
+ <ul>
+ <li><a onclick="project()">PROJECTS</a></li>
+ <li><a onclick="skills()">SKILLS</a></li>
+ <li><a onclick="about_me()">ABOUT ME</a></li>
+ <li><a onclick="myfunction()">HOME</a></li>
+ </ul>
+ </div>
+ <p id="text" style="text-align: center; font-size: 1cm; padding-top: 
+8%;margin-left: auto;margin-right: auto;">
+ Hello!!<br> Welcome to the programming world <br> I'm Sanjai<br></p>
+ <p id="demo"></p>
+ <div class="co">
+ <div class="cont">
+ <p>CONTACTS:</p><br>
+ <p>Email:sanjai.ad22@bitsathy.ac.in
+ Mobile number: 7010135081</p>
+ </div>
+ </div>
+</body>
+</html>
+
